@@ -1,0 +1,163 @@
+/* 登录 */
+.register {
+	background: url(../image/login/1.jpg) no-repeat center center;
+	height: 600px;
+}
+.register .enter-box {
+	position: relative;
+}
+.register .login-name {
+	position: absolute;
+	top: 83px;
+	right: 0;
+	padding: 0 40px;
+	width: 304px;
+	height: 458px;
+	background: #fff;
+}
+ .register .login-name h3 {
+ 	padding: 30px 0 30px 40px;
+	font-size: 18px;
+	color: #333;
+	font-weight: 700;
+}
+/* 登录账号-主体 -input*/
+.tip {
+	margin: 5px 0 0 30px;
+	font-size: 12px;
+	color: #d4282d;
+}
+.wait {
+	display: none;
+	position: absolute;
+	top: 34px;
+	left: -2px;
+	z-index: 89;
+	width: 282px;
+	font-size: 14px;
+	color: #333;
+	background: #fff;
+	border: 1px solid #e8e8e8;
+}
+.wait li {
+	width: 302px;
+	line-height: 35px;
+}
+.wait li span{
+	margin-left: 20px;
+}
+
+.wait li:hover {
+	background: #ddd;
+	opacity: .4;
+}
+.register .login-name .main .login-box {
+	position: relative;
+	width: 300px;
+	height: 36px;
+	line-height: 36px;
+	border: 1px solid #e8e8e8;
+	margin-bottom: 10px;
+ }
+ .register .main .login-box .iconfont-box{
+ 	/* display: inline-block; */
+ 	float: left;
+ 	padding:7px 0 7px 7px;
+ 	width: 29px;
+ 	height: 24px;
+ }
+
+.register .main .login-box .iconfont-box img{
+ 	padding-right: 7px;
+ 	width: 21px;
+ 	height: 24px;
+ 	border-right: 1px solid #e8e8e8;
+ }
+
+.register .main .login-box .log{
+	padding-left: 8px;
+	width: 216px;
+	height: 34px;
+	z-index: 0;
+	outline: none;
+	border: none;
+	vertical-align: top;
+ }
+.register .main .submit {
+	margin: 30px 0 15px;
+	width: 302px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	font-size: 19px;
+	color: #fff;
+	outline: none;
+	border: none;
+	background: #b4a078;
+ }
+.register .main .main-rest {
+	width: 302px;
+	height: 18px;
+	line-height: 18px;
+	padding-bottom: 9px;
+ }
+.register .main .main-rest a {
+	font-size: 12px;
+	color: #999;
+ }
+ .register .main .main-rest a:hover {
+	color: #666;
+ }
+
+.register .main .main-rest .reset{
+	float: right;
+ }
+
+/* 其他方式登录 */
+.register .enter-box .other {
+	margin-top: 20px;
+	position: relative;
+	width: 304px;
+	height: 106px;
+	text-align: center;
+	border-top: 1px solid #ddd
+}
+.register .enter-box .other .other-text {
+	position: absolute;
+	top: -8px;
+	left: 100px;
+	width: 120px;
+	height: 26px;
+	font-size: 14px;
+	color: #999;
+	background: #fff;
+}
+.register .enter-box .other .detail {
+	margin-top: 38px;
+	height: 50px;
+}
+.register .enter-box .other .detail a {
+	display: inline-block;
+	margin: 0 15px;
+	text-align: center;
+}
+.register .enter-box .other .detail a:hover i{
+	color: #b4a078;
+}
+.register .enter-box .other .detail a:hover .text{
+	color: #b4a078;
+}
+
+.register .enter-box .other .detail .text {
+	display: inline-block;
+	font-size: 12px;
+	color: #999;
+	margin-top: 10px
+}
+.register .enter-box .other .detail i {
+	font-size: 28px;
+	color: #999;
+
+}
+
+

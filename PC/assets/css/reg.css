@@ -1,0 +1,334 @@
+/* 初始化 */
+.container {
+	width: 1000px;
+	margin: 0 auto;
+}
+/* 注册页面 */
+.enroll {
+	width: 100%;
+	background: rgb(239, 239, 239);
+}
+/* 标题 */
+.enroll .title {
+	height: 130px;
+	line-height: 130px;
+}
+.enroll .title .title-left {
+	display: inline-block;
+	margin-top: 35px;
+	line-height: 60px;
+}
+
+.enroll .title .title-img {
+	width: 300px;
+	height: 60px;
+	background: url(../image/reg/2.png) no-repeat;
+	background-position: -50px -18px;
+}
+.enroll .title .title-right {
+	float: right;
+	font-size: 18px;
+	color: rgb(102, 102, 102);
+}
+.enroll .title .title-right a{
+	color: #ca5252;
+}
+
+/* 注册内容 */
+.enroll .enroll-content {
+	padding-bottom: 50px;
+	background: #fff;
+}
+.tip-line {
+	border: 1px solid #4aafe9;
+}
+.success-tip  {
+	overflow: hidden;
+    display: inline-block;
+    vertical-align: -5px;
+    width: 22px;
+    height: 22px;
+    background: url(../image/reg/sprite.png) no-repeat -26px -98px;
+}
+/*.error {
+	border: 1px solid #fa5b5b !important;
+}*/
+/* .tip-p {
+
+} */
+.shake {
+	display: inline-block;
+	animation: shake 1s 2;
+}
+.error-tip{
+	font-size: 12px;
+	color: #999;
+	
+}
+ @keyframes shake {
+        0% {
+            transform: translateX(0);
+        }
+        10% {
+            transform: translateX(-10px);
+        }
+        20% {
+            transform: translateX(0);
+        }
+        30% {
+            transform: translateX(10px);
+        }
+        40% {
+            transform: translateX(0);
+        }
+        50% {
+            transform: translateX(-10px);
+        }
+        60% {
+            transform: translateX(0);
+        }
+        70% {
+            transform: translateX(10px);
+        }
+        80% {
+            transform: translateX(0);
+        }
+        90% {
+            transform: translateX(-10px);
+        }
+        100% {
+            transform: translateX(0);
+        }
+    }
+.error-tip::before {
+	content: "";
+    display: inline-block;
+    vertical-align: -5px;
+    width: 22px;
+    height: 22px;
+    background: url(../image/reg/sprite.png) no-repeat -62px -98px;
+}
+
+/* 注册内容 -标题*/
+.enroll .enroll-content .content-top .top-title{
+	padding: 44px 0 24px;
+	width: 320px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin: 0 auto;
+}
+.enroll .content-top .top-title .general {
+	float: left;
+	width: 158px;
+	height: 38px;
+	font-size: 16px;
+	color: #fff;
+	background: #ca5252;
+	border: 1px solid #ca5252;
+}
+.enroll .content-top .top-title .good {
+	float: right;
+	width: 158px;
+	height: 38px;
+	background: #fff;
+	border: 1px solid #ccc;
+}
+.enroll .content-top .top-title .good a{
+	font-size: 16px;
+	color: #666;
+}
+.enroll .content-top .top-title .good i{
+	margin: -10px -23px 0 0;
+	display: inline-block;
+	font-size: 36px;
+	color: #ca5252;
+}
+
+/* 注册内容 -form表单 */
+.enroll .enroll-content .content-box {
+	height: 620px;
+}
+.enroll .enroll-content .content-box .form {
+	height: 72px;
+	line-height: 72px;
+}
+.word {
+	display: inline-block;
+	width: 340px;
+	height: 44px;
+	line-height: 44px;
+	font-size: 16px;
+	color: #333;
+	text-align: right;
+}
+.enroll .wait {
+	display: none;
+	position: absolute;
+	top: 57px;
+	left: 340px;
+	width: 320px;
+	background: #f5f5f5;
+	border: 1px solid #ccc;
+}
+.enroll .wait li{
+	width: 320px;
+	line-height: 30px;
+	font-size: 16px;
+	color: rgb(102, 102, 102);
+}
+.enroll .wait li span{
+	margin-left: 10px;
+}
+
+/* .enroll .wait .active{
+	background: #4aafe9;
+	opacity: .3;
+} */
+
+.enroll .wait li:hover {
+	background: #4aafe9;
+	opacity: .4;
+}
+
+.enroll .account {
+	position: relative;
+}
+.enroll .enroll-content .content-box .input {
+	padding-left: 10px;
+	width: 310px;
+	height: 44px;
+	font-size: 16px;
+	/* color: rgb(221, 221, 221); */
+	/* outline: none; */
+	border: 1px solid rgb(221, 221, 221);
+}
+.enroll .enroll-content .content-box .error {
+	border: 1px solid #fa5b5b !important;
+}
+.enroll .enroll-content .content-box .verify {
+	height: 44px;
+}
+.enroll .content-box .verify-box {
+	display: inline-block;
+	width: 320px;
+	height: 32px;
+	font-size: 12px;
+	color: #a8a8a8;
+	line-height: 32px;
+	text-align: center;
+	outline: none;
+	border: 1px solid rgb(221, 221, 221);
+	border-radius: 18px;
+}
+.enroll .enroll-content .content-box .way {
+	height: 44px;
+	line-height: 22px;
+}
+
+.enroll .content-box .way .word-t {
+	display: inline-block;
+	vertical-align: top;
+}
+.enroll .enroll-content .content-box .way a {
+	font-size: 12px;
+	color: #4cb5ff;
+}
+.enroll .enroll-content .content-box .way p {
+	font-size: 12px;
+	color: #999;
+}
+.enroll .enroll-content .content-box .note {
+	height: 72px;
+	line-height: 72px;
+}
+
+.enroll .enroll-content .content-box .note-box {
+	padding-left: 10px;
+	width: 180px;
+	height: 44px;
+	font-size: 16px;
+	border: none;
+	border: 1px solid rgb(221, 221, 221);
+}
+.enroll .enroll-content .content-box button {
+	margin-left: 10px;
+	width: 120px;
+	height: 44px;
+	font-size: 16px;
+	color: #fff;
+	text-align: center;
+	background: #a1d1f6;
+	border: 1px solid #a1d1f6;
+	opacity: .6;
+}
+.enroll .enroll-content .content-box .submit-s {
+	height: 46px;
+	padding-top: 8px;
+}
+.enroll .enroll-content .content-box .submit {
+	display: inline-block;
+	vertical-align: top;
+	width: 320px;
+	height: 46px;
+	line-height: 18px;
+	font-size: 18px;
+	color: #fff;
+	border: none;
+	background: #ca5252;
+	opacity: .6;
+}
+.enroll .enroll-content .content-box .consent {
+	height: 40px;
+	line-height: 20px;
+	font-size: 14px;
+	color: #333;
+}
+
+.enroll .content-box .consent .text-w {
+	display: inline-block;
+	width: 320px;
+	text-align: left;
+}
+
+.enroll .content-box .consent .check{
+	margin-right: 4px;
+	width: 16px;
+	height: 18px;
+}
+
+.enroll .content-box .consent span {
+	font-size: 12px;
+	color: #b1b1b1;
+}
+.enroll .content-box .consent a {
+	font-size: 12px;
+	color: #b1b1b1;
+}
+.enroll .enroll-content .enroll-img {
+	width: 901px;
+	height: 180px;
+	margin: 0 auto;
+}
+.enroll .enroll-content .enroll-img a{
+	display: inline-block;
+	width: 901px;
+	height: 180px;
+}
+
+/* 底部 */
+.footer {
+	padding: 30px 0;
+	text-align: center;
+}
+.footer p{
+	padding-bottom: 10px;
+	font-size: 12px;
+	color: #b1b1b1;
+}
+.footer p a{
+	padding: 0 5px;
+	font-size: 12px;
+	color: #b1b1b1;
+}
+
